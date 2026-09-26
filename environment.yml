@@ -1,0 +1,26 @@
+# RocketPy 기반 낙하산/로켓 시뮬레이션 환경
+# 생성:  conda env create -f environment.yml
+# 활성화: conda activate rocketpy
+name: rocketpy
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  # 시뮬레이션 코어
+  - rocketpy=1.13
+  - numpy
+  - scipy
+  - matplotlib
+  - netcdf4
+  - pandas
+  # 노트북 / VS Code 커널
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  # RocketPy monte-carlo 옵션 의존성 (낙하 지점 분산 해석용)
+  - imageio
+  - multiprocess
+  - statsmodels
+  - prettytable
+  - pip

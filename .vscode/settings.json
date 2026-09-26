@@ -1,0 +1,4 @@
+{
+  "python.defaultInterpreterPath": "/opt/conda/envs/rocketpy/bin/python",
+  "python.terminal.activateEnvironment": true
+}
